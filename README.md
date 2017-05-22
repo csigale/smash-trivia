@@ -1,3 +1,4 @@
+
 ## Smash the Patriarchy
 
 Welcome to our trivia game of Smash the Patriachy developed in Python/Flask, HTML and CSS on Cloud9 IDE!
@@ -14,6 +15,7 @@ in Python.
 To try the example application, type the following in the terminal:
 
 ```
+pip install Flask
 python app.py
 ```
 
