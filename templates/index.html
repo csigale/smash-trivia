@@ -18,7 +18,9 @@
         </div>
 
         <div class="flex-item">
-           <input id="start" type="submit" value="Begin Game" />
+           <form action="{{ url_for('question', question_id=1) }}" >
+                <input class="start" type="submit" value="Begin Game"/>
+            </form>
         </div>
         
     </div>

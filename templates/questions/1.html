@@ -25,16 +25,16 @@
 
     <div class="flex-container">
         <div class="flex-item" data-color="#2980B9" style="background-color: rgb(42, 128, 185);">
-            <p>Equal rights ammendment</p>
+            <a href = "{{ url_for('questions', answer='equal', question_id=1) }}">Equal rights ammendment</a>
         </div>
         <div class="flex-item" data-color="#8f44ad" style="background-color: rgb(143, 68, 173);">
-            <p>15th ammendment</p>
+            <a href = "{{ url_for('questions', answer='15th', question_id=1) }}">15th ammendment</a>
         </div>
         <div class="flex-item" data-color="#16a086" style="background-color: rgb(22, 160, 134);">
-            <p>19th ammendment </p>
+            <a href = "{{ url_for('questions', answer='19th', question_id=1) }}">19th ammendment </a>
         </div>
         <div class="flex-item" data-color="#f1c40f" style="background-color: rgb(241, 196, 15);">
-            <p>Voting rights act </p>
+            <a href = "{{ url_for('questions', answer='voting', question_id=1) }}">Voting rights act </a>
         </div>
     </div>
     
