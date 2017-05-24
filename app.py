@@ -3,7 +3,6 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def index():
     return render_template(
@@ -11,10 +10,10 @@ def index():
 
 @app.route('/question/<int:question_id>')
 def question(question_id):
-    
+
     return render_template(
         'questions/'+str(question_id)+'.html')
-     
+
 @app.route('/error')
 def error():
     return render_template(
